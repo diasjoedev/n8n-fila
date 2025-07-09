@@ -15,7 +15,7 @@ services:
       - n8n-queue
 
   redis:
-    image: redis-alpine
+    image: redis:alpine
     container_name: redis-queue
     volumes:
       - ./redis-data:/data
