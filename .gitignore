@@ -1,1 +1,3 @@
 ./postgres_data
+./n8n_data
+./redis_data
