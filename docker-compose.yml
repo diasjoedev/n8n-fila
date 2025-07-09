@@ -1,7 +1,7 @@
 services:
   postgres:
     image: ankane/pgvector
-    container_name: postgres-youtube
+    container_name: postgres-queue
     volumes:
       - ./postgres_data:/var/lib/postgresql/data
     restart: always
