@@ -9,7 +9,7 @@ services:
       - 5432:5432
     environment:
       POSTGRES_PASSWORD: postgres
-      POSTGRES_BD: n8n
+      POSTGRES_DB: n8n
       POSTGRES_USER: postgres
     networks:
       - n8n-queue
